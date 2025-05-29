@@ -58,7 +58,7 @@ const HeroSection = () => {
               alt="Quote" 
               className="w-8 h-8 opacity-100"
             />
-            <p className="text-custom-black text-base leading-relaxed font-medium ">
+            <p className="text-custom-black text-lg leading-relaxed font-medium ">
               My design philosophy is simple: 
               blend effortless user experience with seamlessly integrated, stunning visuals.
             </p>
@@ -73,7 +73,7 @@ const HeroSection = () => {
               className="h-7 mr-3"
             />
           </div>
-          <h3 className="text-[35px] font-bold text-custom-black">Rated 5/5</h3>
+          <h3 className="text-[30px] font-bold text-custom-black">Rated 5/5</h3>
           <p className="text-gray-600 font-normal text-md">For User Experience</p>
         </div>
       </div>
