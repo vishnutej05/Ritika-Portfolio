@@ -6,7 +6,7 @@ const HeroSection = () => {
       {/* Background Mandala */}
       <div className="absolute top-[280px] left-1/2 transform -translate-x-1/2 z-0 pointer-events-none select-none">
         <img 
-          src="/lovable-uploads/bg-mandala.png" 
+          src="/uploads/bg-mandala.png" 
           alt="Mandala Background" 
           className="w-[570px] h-[570px] object-contain opacity-100 blur-[2px]"
         />
@@ -21,7 +21,7 @@ const HeroSection = () => {
           <span className="text-custom-black font-medium text-base">Hello!</span>
           {/* Decorative particle (top-right) */}
           <img 
-            src="/lovable-uploads/hello.png" 
+            src="/uploads/hello.png" 
             alt="Decorative element" 
             className="absolute -top-6 -right-6 w-7 h-7 opacity-100"
           />
@@ -40,7 +40,7 @@ const HeroSection = () => {
             </h2>
             {/* Purple squiggle/particle (bottom left of heading) */}
             <img 
-              src="/lovable-uploads/heading.png" 
+              src="/uploads/heading.png" 
               alt="Decorative squiggle" 
               className="absolute -left-16 -bottom-10 w-16 h-16 opacity-100 pointer-events-none select-none"
             />
@@ -54,7 +54,7 @@ const HeroSection = () => {
         style={{ left: '36%', transform: 'translateX(-55%)' }}
       >
         <img 
-          src="/lovable-uploads/ghibli.png" 
+          src="/uploads/ghibli.png" 
           alt="Character" 
           className="w-[430px] md:w-[430px] h-auto"
         />
@@ -66,7 +66,7 @@ const HeroSection = () => {
         <div className="w-80 animate-[slide-right_1.2s_ease-out_2s_both] pointer-events-auto">
           <div className="flex flex-col items-start gap-4">
             <img 
-              src="/lovable-uploads/quote.png" 
+              src="/uploads/quote.png" 
               alt="Quote" 
               className="w-8 h-8 opacity-100"
             />
@@ -80,7 +80,7 @@ const HeroSection = () => {
         <div className="w-100 animate-[slide-left_1.2s_ease-out_2s_both] text-right pointer-events-auto">
           <div className="flex justify-end mb-3">
             <img 
-              src="/lovable-uploads/rating.png" 
+              src="/uploads/rating.png" 
               alt="5 stars" 
               className="h-7 mr-3"
             />
