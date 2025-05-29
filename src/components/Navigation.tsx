@@ -6,7 +6,7 @@ const Navigation = () => {
 
   return (
     <nav className="fixed top-0.5 left-1/2 transform -translate-x-1/2 z-50">
-      <div className="bg-custom-black/95 backdrop-blur-sm rounded-full px-10 py-4 shadow-2xl">
+      <div className="bg-custom-black/95 backdrop-blur-sm rounded-full px-2 py-4 shadow-2xl">
         <ul className="flex items-center space-x-4">
           {navItems.map((item, index) => (
             <li key={item}>

@@ -3,6 +3,7 @@ import React from 'react';
 import Navigation from '../components/Navigation';
 import HeroSection from '../components/HeroSection';
 import AboutSection from '../components/AboutSection';
+import ExperienceProjectsSection from '../components/ExperienceProjectsSection'; // Uncomment if needed
 
 const Index = () => {
   return (
@@ -10,6 +11,7 @@ const Index = () => {
       <Navigation />
       <HeroSection />
       <AboutSection />
+      <ExperienceProjectsSection />
     </div>
   );
 };
