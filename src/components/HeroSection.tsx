@@ -36,7 +36,7 @@ const HeroSection = () => {
           </h1>
           <div className="relative inline-block">
             <h2 className="text-5xl lg:text-6xl font-normal text-custom-black leading-tight">
-              UI/UX Designer and frontend developer
+              UI/UX Designer
             </h2>
             {/* Purple squiggle/particle (bottom left of heading) */}
             <img 
