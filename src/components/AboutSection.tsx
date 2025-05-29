@@ -17,7 +17,7 @@ const AboutSection = () => {
         <img 
           src="/uploads/about-top-right.png" 
           alt="Purple decoration top right" 
-          className="w-40 h-45 opacity-70"
+          className="w-40 h-45 opacity-100"
         />
       </div>
       
@@ -25,7 +25,7 @@ const AboutSection = () => {
         <img 
           src="/uploads/about-bottom-left.png" 
           alt="Purple decoration bottom left" 
-          className="w-40 h-45 opacity-100"
+          className="w-40 h-45 opacity-60"
         />
       </div>
 
