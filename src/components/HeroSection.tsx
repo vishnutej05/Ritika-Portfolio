@@ -48,18 +48,6 @@ const HeroSection = () => {
         </div>
       </div>
 
-      {/* Character image - perfectly centered at bottom */}
-      <div
-        className="absolute bottom-0 z-30 animate-[rise-from-bottom_1.5s_ease-out_1.5s_both]"
-        style={{ left: '36%', transform: 'translateX(-55%)' }}
-      >
-        <img 
-          src="/uploads/ghibli.png" 
-          alt="Character" 
-          className="w-[430px] md:w-[430px] h-auto"
-        />
-      </div>
-
       {/* Quote and Rating section */}
       <div className="absolute inset-0 flex items-center justify-between px-8 z-20 pointer-events-none">
         {/* Quote section */}
@@ -88,6 +76,18 @@ const HeroSection = () => {
           <h3 className="text-[35px] font-bold text-custom-black">Rated 5/5</h3>
           <p className="text-gray-600 font-normal text-md">For User Experience</p>
         </div>
+      </div>
+
+      {/* Character image - pops up last after everything else */}
+      <div
+        className="absolute bottom-0 z-30 animate-[rise-from-bottom_1.5s_ease-out_3s_both] opacity-0"
+        style={{ left: '36%', transform: 'translateX(-55%)' }}
+      >
+        <img 
+          src="/uploads/ghibli.png" 
+          alt="Character" 
+          className="w-[430px] md:w-[430px] h-auto"
+        />
       </div>
     </div>
   );
