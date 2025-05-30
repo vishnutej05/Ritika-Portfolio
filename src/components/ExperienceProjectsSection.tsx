@@ -107,7 +107,7 @@ const ExperienceProjectsSection = ({
       {/* Work Experience Section */}
       {showExperience && (
         <AnimatedSection>
-          <div className="mb-32">
+          <div id="experience"  className="mb-32">
             <h2 className="text-4xl sm:text-5xl font-bold text-center mb-20">
               My <span className="text-custom-purple">Work Experience</span>
             </h2>
@@ -149,7 +149,7 @@ const ExperienceProjectsSection = ({
 
       {/* Projects Section */}
       {showProjects && (
-        <div className="mt-16 mb-8 relative">
+        <div id="projects" className="mt-16 mb-8 relative">
           <AnimatedSection>
             <h2 className="text-4xl sm:text-5xl font-bold text-center mb-20">
               Let's have a look at my <span className="text-custom-purple">Projects</span>

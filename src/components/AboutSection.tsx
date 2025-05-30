@@ -115,7 +115,7 @@ const AboutSection = () => {
   };
 
   return (
-    <div className="min-h-screen bg-custom-black text-white relative overflow-hidden">
+    <div id="about" className="min-h-screen bg-custom-black text-white relative overflow-hidden">
       {/* Purple decorative elements */}
       <motion.div 
         className="absolute top-0 right-0 z-10"

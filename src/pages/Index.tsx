@@ -27,7 +27,9 @@ const Index = () => {
       <HeroSection />
       <AboutSection />
       <ExperienceProjectsSection />
-      <ServicesScrollBanner />
+      <section id="services">
+        <ServicesScrollBanner />
+      </section>
       {/* Copyright Footer */}
       <motion.div 
         className="text-center text-gray-500 text-sm mt-2 py-4"

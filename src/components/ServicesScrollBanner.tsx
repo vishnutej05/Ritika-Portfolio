@@ -27,6 +27,7 @@ const ServicesScrollBanner = () => {
   // Animation for the component entry
   useEffect(() => {
     if (inView) {
+      // Start animation immediately when in view
       controls.start("visible");
     }
   }, [controls, inView]);
@@ -55,10 +56,10 @@ const ServicesScrollBanner = () => {
       animationId = requestAnimationFrame(animate);
     };
     
-    // Start animation after a short delay to ensure rendering
+    // Start animation after a shorter delay
     const timeoutId = setTimeout(() => {
       animate();
-    }, 100);
+    }, 50); // Reduced from 100 to 50ms
     
     return () => {
       clearTimeout(timeoutId);
@@ -75,10 +76,10 @@ const ServicesScrollBanner = () => {
       opacity: 1,
       y: 0,
       transition: {
-        duration: 0.8,
+        duration: 0.5, // Reduced from 0.8 to 0.5
         ease: "easeOut",
         when: "beforeChildren",
-        staggerChildren: 0.1
+        staggerChildren: 0.05 // Reduced from 0.1 to 0.05 for faster child animations
       }
     }
   };
@@ -89,7 +90,7 @@ const ServicesScrollBanner = () => {
       opacity: 1, 
       scale: 1,
       transition: {
-        duration: 0.2
+        duration: 0.15 // Reduced from 0.2 to 0.15 for faster text appearance
       }
     }
   };
@@ -112,7 +113,7 @@ const ServicesScrollBanner = () => {
         className="absolute w-full" 
         variants={{
           hidden: { opacity: 0 },
-          visible: { opacity: 1, transition: { delay: 0.2 } }
+          visible: { opacity: 1, transition: { duration: 0.3, delay: 0.1 } } // Faster animation, less delay
         }}
         style={{
           background: 'white',

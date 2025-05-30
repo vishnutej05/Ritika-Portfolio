@@ -14,7 +14,7 @@ const ContactSection = () => {
   };
 
   return (
-    <div className="w-full mt-28 px-6 sm:px-12 lg:px-24 relative overflow-hidden">
+    <div id="contact" className="w-full mt-28 px-6 sm:px-12 lg:px-24 relative overflow-hidden">
 
       {/* Main Content Container */}
       <div className="max-w-6xl mx-auto relative z-10">

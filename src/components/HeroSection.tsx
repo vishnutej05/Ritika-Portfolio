@@ -2,7 +2,7 @@ import React from 'react';
 
 const HeroSection = () => {
   return (
-    <div className="min-h-screen relative overflow-hidden bg-gradient-to-br from-gray-50 to-gray-100">
+    <div id="home" className="min-h-screen relative overflow-hidden bg-gradient-to-br from-gray-50 to-gray-100">
       {/* Background Mandala */}
       <div className="absolute top-[280px] left-1/2 transform -translate-x-1/2 z-0 pointer-events-none select-none">
         <img 
